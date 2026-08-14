@@ -1,0 +1,24 @@
+﻿@import "tailwindcss";
+
+@theme {
+  --color-parchment: #f7f2e9;
+  --color-espresso-50: #f3ece5;
+  --color-espresso-100: #e4d5c6;
+  --color-espresso-400: #8b5e34;
+  --color-espresso-600: #5a3c22;
+  --color-espresso-800: #3a281c;
+  --color-espresso-900: #2b1b14;
+
+  --color-roast-green: #4b7455;
+  --color-roast-amber: #b8863e;
+  --color-roast-brick: #a23e2e;
+
+  --font-display: "Fraunces", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-parchment text-espresso-900 font-body antialiased;
+  }
+}

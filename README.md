@@ -48,3 +48,26 @@ See [Documentation.md](./Documentation.md) for full setup instructions, includin
 ## Deployment
 
 See [deployment.md](./deployment.md) for how this was deployed to Render.
+
+---
+
+## Assignment brief
+
+### Introduction
+
+You're opening a hipster micro-roastery and need a tiny app to log each brew you make.
+
+### Your mission
+
+Ship a working full-stack Coffee Brew Log app that lets a user:
+
+- Create a brew entry and save it to the database
+- Read the brew log in a list view
+- Filter the list view by brew method
+- Edit and update a brew entry
+- Delete a brew entry
+
+### Wireframes
+
+![Wireframe](./wireframe-1.png)
+![Wireframe](./wireframe-2.png)
